@@ -11,6 +11,6 @@ phases:
        commands:
         - echo "Enter the post-build phase"
         - mv target/deploy ./
-    install:
-      files:
+artifacts:
+    files:
         - deploy/**/*
